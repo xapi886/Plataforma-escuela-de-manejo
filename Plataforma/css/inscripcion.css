@@ -1,0 +1,192 @@
+body {
+    background-image: url(../Imagenes/login.png);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.formulario {
+    background-color: rgba(255, 255, 255, 0.70);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, .0, .0, .0.568);
+    color: white;
+    margin: auto;
+}
+
+.ingresar {
+    background: #f0a80e;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #01236b;
+    transition: 0.5s ease-in;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, .0, .0, .0.568);
+    width: 20%;
+}
+
+#registro {
+    color: #F2B123;
+    background: #01236b;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+    width: 93%;
+    top: -2%;
+    margin: 0px auto;
+}
+
+#guardar-categoria {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+.text-color {
+    color: #656565;
+}
+
+#password {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#btn-enviar-inscripción {
+    min-width: 80px;
+    max-width: 80px;
+    font-weight: bold;
+}
+
+#inscripcion-nombreCE {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#inscripcion-apellidoCE {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#inscripcion-telefonoCE {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#inscripcion-direccionCE {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#inscripcion-nombreLT {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#incripcion-telefonoLT {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#incripcion-emailLT {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#incripcion-direccionLT {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#inscripcion-observaciones {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#editar-foto {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#inscripcion-emailCE {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#cont-horario {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#select-horario {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#inscripcion-fecha-creacion {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    /* border-bottom: 1px solid #8E8E8E;*/
+    outline: none;
+    box-shadow: none;
+}

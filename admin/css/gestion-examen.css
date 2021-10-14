@@ -1,0 +1,195 @@
+img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid #c0c0c0;
+}
+
+@supports(object-fit: cover) {
+    img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 575.98px) {
+    .show {
+        display: none;
+    }
+    a i.fas.fa-plus {
+        font-size: 18px;
+    }
+    a[data-type-button="square"] {
+        width: 33px;
+        height: 33px;
+        border-radius: 100%;
+    }
+    .execute-display {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.card-header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    button.btn.btn-link {
+        white-space: initial !important;
+    }
+    .execute-display>a,
+    .execute-display>button {
+        margin: 5px;
+    }
+    .execute-display-items {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .execute-display-items-control {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    div.text-truncate {
+        width: 100%;
+        white-space: initial !important;
+        text-align: left;
+    }
+    .execute-display-items-control>button,
+    .execute-display-items-control>div {
+        margin: 5px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .show {
+        display: none;
+    }
+    a i.fas.fa-plus {
+        font-size: 18px;
+    }
+    a[data-type-button="square"] {
+        width: 33px;
+        height: 33px;
+        border-radius: 100%;
+    }
+    .execute-display {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.card-header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    button.btn.btn-link {
+        white-space: initial !important;
+    }
+    .execute-display>a,
+    .execute-display>button {
+        margin: 5px;
+    }
+    .execute-display-items {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .execute-display-items-control {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    div.text-truncate {
+        width: 100%;
+        white-space: initial !important;
+        text-align: left;
+    }
+    .execute-display-items-control>button,
+    .execute-display-items-control>div {
+        margin: 5px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .show {
+        display: none;
+    }
+    a i.fas.fa-plus {
+        font-size: 18px;
+    }
+    a[data-type-button="square"] {
+        width: 33px;
+        height: 33px;
+        border-radius: 100%;
+    }
+    .execute-display {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.card-header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    button.btn.btn-link {
+        white-space: initial !important;
+    }
+    .execute-display>a,
+    .execute-display>button {
+        margin: 5px;
+    }
+    .execute-display-items {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .execute-display-items-control {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    div.text-truncate {
+        width: 100%;
+        white-space: initial !important;
+        text-align: left;
+    }
+    .execute-display-items-control>button,
+    .execute-display-items-control>div {
+        margin: 5px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}

@@ -1,0 +1,7 @@
+[24-Mar-2021 04:33:14 Europe/Madrid] PHP Fatal error:  require(): Failed opening required '/home/svecm2020/public_html/vendor/composer/../myclabs/deep-copy/src/DeepCopy/deep_copy.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/svecm2020/public_html/vendor/composer/autoload_real.php on line 69
+[24-Mar-2021 05:44:02 Europe/Madrid] PHP Fatal error:  require(): Failed opening required '/home/svecm2020/public_html/vendor/composer/../myclabs/deep-copy/src/DeepCopy/deep_copy.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/svecm2020/public_html/vendor/composer/autoload_real.php on line 69
+[05-Apr-2021 22:59:30 Europe/Madrid] PHP Parse error:  syntax error, unexpected '=' in /home/svecm2020/public_html/admin/vistas/templates/info-estudiante.php on line 425
+[05-Apr-2021 22:59:35 Europe/Madrid] PHP Parse error:  syntax error, unexpected '=' in /home/svecm2020/public_html/admin/vistas/templates/info-estudiante.php on line 425
+[05-Apr-2021 22:59:45 Europe/Madrid] PHP Parse error:  syntax error, unexpected '=' in /home/svecm2020/public_html/admin/vistas/templates/info-estudiante.php on line 425
+[05-Apr-2021 22:59:58 Europe/Madrid] PHP Parse error:  syntax error, unexpected '=' in /home/svecm2020/public_html/admin/vistas/templates/info-estudiante.php on line 425
+[05-Apr-2021 23:00:12 Europe/Madrid] PHP Parse error:  syntax error, unexpected '=' in /home/svecm2020/public_html/admin/vistas/templates/info-estudiante.php on line 425

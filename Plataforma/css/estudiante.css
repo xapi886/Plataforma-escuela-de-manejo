@@ -1,0 +1,351 @@
+.formulario-estudiante {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 4px 0 rgba(165, 165, 165, 0.14), 0 3px 3px -2px rgba(151, 151, 151, 0.12), 0 1px 8px 0 rgba(168, 168, 168, 0.2) !important;
+    outline: none;
+    color: #AAAAAA;
+    z-index: 0;
+}
+
+.header-box {
+    background-color: #4d7ae2;
+    padding: 8px 8px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: -3%;
+    z-index: 2;
+    width: 95%;
+}
+
+.header-box-fotos {
+    background-color: #4d7ae2;
+    padding: 8px 8px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: -10%;
+    z-index: 2;
+    width: 95%;
+}
+
+.container-examen {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 3px 4px 0 rgba(165, 165, 165, 0.14), 0 3px 3px -2px rgba(151, 151, 151, 0.12), 0 1px 8px 0 rgba(168, 168, 168, 0.2) !important;
+    outline: none;
+    color: #000000;
+    /*z-index: 0;*/
+}
+
+.ingresar {
+    background: #f0a80e;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #01236b;
+    transition: 0.5s ease-in;
+    text-align: center;
+    box-shadow: 0 3px 4px 0 rgba(165, 165, 165, 0.14), 0 3px 3px -2px rgba(151, 151, 151, 0.12), 0 1px 8px 0 rgba(168, 168, 168, 0.2) !important;
+}
+
+#fecha-examen {
+    background-color: #4d7ae2;
+    padding: 8px 8px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: -10%;
+    z-index: 2;
+    width: 95%;
+}
+
+#examen-requisitos {
+    background-color: #4d7ae2;
+    padding: 8px 8px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: -5%;
+    z-index: 2;
+    width: 95%;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+#editar-nombre {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-apellido {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-telefono {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-cedula {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-pasaporte {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-sexo {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-fecha-nacimiento {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-email {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-contrasenia {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-direccion {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-fecha-foto {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ede8e8;
+}
+
+.form-control:focus {
+    border: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.quitar-efecto-de-click {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#btn-guardar {
+    color: #ffffff;
+}
+
+#btn-cancelar {
+    color: #ffffff;
+}
+
+.table-text {
+    color: #AAAAAA;
+}
+
+.subir-foto [type=”file”] {
+    width: 0;
+    height: 0;
+    overflow: hidden !important;
+    position: absolute;
+    z-index: -1;
+    margin: 0 !important;
+    opacity: 0 !important;
+    outline: 0 none !important;
+    padding: 0 !important;
+    filter: alpha(opacity=0);
+    cursor: inherit;
+    display: block;
+}
+
+#label-input-foto {
+    font-size: 14px;
+    color: #AAAAAA;
+    background-color: #ffffff;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 25px 40px !important;
+    width: fit-content;
+    text-align: center;
+    border: dashed;
+    border-radius: 10px;
+}
+
+#editar-foto {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#editar-foto-cedula-delante {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#editar-foto-cedula-detras {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#editar-foto-Boucher {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#guardar-cedula-delante {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#guardar-cedula-trasera {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#guardar-vaucher-pago {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.label-input-foto-cedula-delante {
+    font-size: 14px;
+    color: #AAAAAA;
+    background-color: #ffffff;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 25px 40px !important;
+    width: fit-content;
+    text-align: center;
+    border: 0;
+    ;
+}
+
+.label-input-foto-cedula-detras {
+    font-size: 14px;
+    color: #AAAAAA;
+    background-color: #ffffff;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 25px 40px !important;
+    width: fit-content;
+    text-align: center;
+    border: 0;
+    /* border-radius: 10px;*/
+}
+
+.label-input-foto-Boucher {
+    font-size: 14px;
+    color: #AAAAAA;
+    background-color: #ffffff;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 25px 40px !important;
+    width: fit-content;
+    text-align: center;
+    border: 0;
+    /*border-radius: 10px; */
+}
+
+#template {
+    max-width: 50%;
+    max-height: 50%;
+    vertical-align: middle;
+}
+
+#foto-cedula-delante {
+    max-width: 24px;
+    max-height: 24px;
+    vertical-align: middle;
+}
+
+#foto-cedula-detras {
+    max-width: 24px;
+    max-height: 24px;
+    vertical-align: middle;
+}
+
+#foto-Boucher {
+    max-width: 24px;
+    max-height: 24px;
+    vertical-align: middle;
+}

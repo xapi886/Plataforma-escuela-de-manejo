@@ -1,0 +1,345 @@
+body {
+    background-image: url(../Imagenes/login.png);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.formulario {
+    background-color: rgba(255, 255, 255, 0.70);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, .0, .0, .0.568);
+    color: white;
+    margin: auto;
+}
+
+.quitar-efecto-click {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+.text-color {
+    color: #656565;
+}
+
+.table-text {
+    color: #656565;
+}
+
+#guardar-perfil {
+    color: #F2B123;
+    background: #01236b;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+    width: 60%;
+    top: -4.5%;
+    margin: 0;
+    left: 20%;
+}
+
+#fotos-necesarias {
+    color: #F2B123;
+    background: #01236b;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+    width: 60%;
+    top: -7%;
+    left: 20%;
+    margin: 0;
+}
+
+#guardar-nombre-estudiante {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#guardar-apellido-estudiante {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#guardar-cedula-estudiante {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#guardar-pasaporte-estudiante {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#guardar-sexo-estudiante {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#guardar-fechaNacimiento-estudiante {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#guardar-email-estudiante {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#guardar-password-estudiante {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#guardar-direccion-estudiante {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#guardar-telefono-estudiante {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+.table th,
+.table td {
+    border-top: none !important;
+    border-left: none !important;
+}
+
+.fixed-table-container {
+    border: 0px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #AFB1B9 !important;
+}
+
+#label-input-foto {
+    font-size: 14px;
+    color: #AAAAAA;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    /** padding: 25px 40px !important;*/
+    width: fit-content;
+    text-align: center;
+    border: 0;
+    border-radius: none;
+}
+
+#guardar-cedula-delante {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#guardar-cedula-trasera {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#guardar-vaucher-pago {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#table-text {
+    color: #656565;
+}
+
+#foto-cedula-delante {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#foto-cedula-detras {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#foto-voucher {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.label-foto-voucher {
+    display: inline-block;
+    color: #fff;
+    width: 8rem;
+    height: 2rem;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    cursor: pointer;
+    border-radius: .25rem;
+    vertical-align: middle;
+}
+
+.label-foto-cedula-delante {
+    display: inline-block;
+    color: #fff;
+    width: 8rem;
+    height: 2rem;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    cursor: pointer;
+    border-radius: .25rem;
+    vertical-align: middle;
+}
+
+.label-foto-cedula-detras {
+    display: inline-block;
+    color: #fff;
+    width: 8rem;
+    height: 2rem;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    cursor: pointer;
+    border-radius: .25rem;
+    vertical-align: middle;
+}
+
+#img-template {
+    max-width: 24px;
+    max-height: 24px;
+    vertical-align: middle;
+}
+
+#img-template-1 {
+    max-width: 24px;
+    max-height: 24px;
+    vertical-align: middle;
+}
+
+#img-template-2 {
+    max-width: 24px;
+    max-height: 24px;
+    vertical-align: middle;
+}
+
+#img-template-3 {
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.label-foto-pago {
+    display: inline-block;
+    color: #fff;
+    min-width: 15rem;
+    max-width: auto;
+    height: 2rem;
+    /* padding-left: 8rem;
+
+    padding-right: 8rem;
+
+    margin-inline: 4rem;*/
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    cursor: pointer;
+    border-radius: .25rem;
+    vertical-align: middle;
+}
+
+#guardar-metodo-pago {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+#foto-pago {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}

@@ -1,0 +1,44 @@
+#navbarResponsive ul li a {
+    color: rgba(228, 220, 220, 0.664) !important;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#navbarResponsive a:hover {
+    text-decoration: none;
+    color: #4d7ae2 !important;
+}
+
+.margin-a {
+    margin-right: 200px;
+}
+
+.navbar-pricipal {
+    color: rgba(0, 0, 0, 0.377) !important;
+}
+
+#line-bottom {
+    background-color: rgba(0, 0, 0, 0.726) !important;
+    width: 20rem;
+    height: 5px;
+    margin-top: 1;
+}
+
+#logo {
+    width: 7rem;
+    height: 3rem;
+}
+
+#contacto {
+    background-color: #212529;
+    background-image: url("/Plataforma/Imagenes/carro.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#redes a:hover {
+    text-decoration: none;
+    color: #4d7ae2 !important;
+}

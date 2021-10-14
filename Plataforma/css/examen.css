@@ -1,0 +1,234 @@
+.formulario-examen {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, .0, .0, .0.568);
+    outline: none;
+    color: #AAAAAA;
+}
+
+.header-box-examen {
+    background-color: #4d7ae2;
+    padding: 8px 8px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ingresar {
+    background: #f0a80e;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #01236b;
+    transition: 0.5s ease-in;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, .0, .0, .0.568);
+}
+
+#btn-enviar-examen {
+    color: #ffffff !important;
+}
+
+#examen {
+    color: #ffffff;
+    background: #4D7AE2;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+#editar-nombre {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-apellido {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-cedula-de-identidad {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-pasaporte {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-sexo {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-fecha-nacimiento {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-fecha-email {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-contrasenia {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-fecha-direccion {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#editar-fecha-foto {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ede8e8;
+}
+
+.form-control:focus {
+    border: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.quitar-efecto-de-click {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ede8e8;
+}
+
+#btn-guardar {
+    color: #ffffff;
+}
+
+#btn-cancelar {
+    color: #ffffff !important;
+}
+
+.table-text {
+    color: #AAAAAA;
+}
+
+.subir-foto [type=”file”] {
+    width: 0;
+    height: 0;
+    overflow: hidden !important;
+    position: absolute;
+    z-index: -1;
+    margin: 0 !important;
+    opacity: 0 !important;
+    outline: 0 none !important;
+    padding: 0 !important;
+    filter: alpha(opacity=0);
+    cursor: inherit;
+    display: block;
+}
+
+#editar-foto {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.subir-foto {
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.verExamen {
+    border-radius: 5px;
+    box-shadow: 0 3px 4px 0 rgba(165, 165, 165, 0.14), 0 3px 3px -2px rgba(151, 151, 151, 0.12), 0 1px 8px 0 rgba(168, 168, 168, 0.2) !important;
+}
+
+.examenes {
+    border: 1px solid rgba(224, 221, 221, 0.774);
+}
+
+.titulo-examen {
+    border: 1px solid rgba(224, 221, 221, 0.774);
+    width: 100%;
+}
+
+.contenedor-examen {
+    -webkit-box-shadow: 3px 3px 3px 3px rgba(224, 221, 221, 0.774) !important;
+    -moz-box-shadow: 3px 3px 3px 3px rgba(224, 221, 221, 0.774) !important;
+    box-shadow: 3px 3px 3px 3px rgba(224, 221, 221, 0.774) !important;
+    background-color: #fdf9f9;
+}
+
+.botton {
+    border: 1px solid rgba(224, 221, 221, 0.774);
+    margin: auto;
+}
+
+.foto-pregunta {
+    align-content: center !important;
+    max-width: 200px !important;
+    max-height: 200px !important;
+    width: fit-content;
+    vertical-align: middle;
+}
+
+.correcta {
+    background-color: #B5FFD8;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+    /* border: 1px solid #000000;*/
+}
+
+.incorrecta {
+    background-color: #FFC5C5;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+    /* border: 1px solid #000000;*/
+}
+
+.formulario-examen-correcta {
+    background-color: #B5FFD8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, .0, .0, .0.568);
+    outline: none;
+    color: #AAAAAA;
+}
+
+.formulario-examen-incorrecta {
+    background-color: #FFC5C5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, .0, .0, .0.568);
+    outline: none;
+    color: #AAAAAA;
+}

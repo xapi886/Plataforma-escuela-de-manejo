@@ -1,0 +1,31 @@
+#img-centrada-redonda {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.img-centrada {
+    width: 112px;
+    height: 112px;
+    border-radius: 150px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    color: #213569 !important;
+}
+
+.text-color {
+    color: #707070;
+}
+
+.imagen-deslizable {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+a.screen-reader-text:hover {
+    color: #1717FF
+}
